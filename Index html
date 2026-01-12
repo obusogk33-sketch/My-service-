@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goodluck Web Services</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#222}
+    header{background:#0f3d5e;color:#fff;padding:30px 15px;text-align:center}
+    nav{background:#133b5c;padding:10px;text-align:center}
+    nav a{color:#fff;margin:0 10px;text-decoration:none;font-weight:bold}
+    nav a:hover{text-decoration:underline}
+    .container{max-width:900px;margin:auto;padding:20px}
+    .card{background:#fff;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,.1);padding:20px;margin-bottom:20px}
+    h2{color:#0f3d5e}
+    .services li{margin:8px 0}
+    .price{font-weight:bold;color:#0f3d5e}
+    input,textarea,button{width:100%;padding:10px;margin-top:8px;border-radius:6px;border:1px solid #ccc}
+    button{background:#0f3d5e;color:#fff;border:none;font-size:16px}
+    button:hover{background:#0c2f48}
+    footer{background:#0f3d5e;color:#fff;text-align:center;padding:12px;margin-top:30px}
+  </style>
+</head>
+<body><header>
+  <h1>Goodluck Web Services</h1>
+  <p>Simple • Affordable • Reliable Online Services</p>
+</header><nav>
+  <a href="#services">Services</a>
+  <a href="#how">How It Works</a>
+  <a href="#contact">Contact</a>
+</nav><div class="container">  <div class="card" id="services">
+    <h2>My Services</h2>
+    <ul class="services">
+      <li>Basic Website Creation <span class="price">– $10</span></li>
+      <li>HTML & CSS Fixes <span class="price">– $5</span></li>
+      <li>Typing & Document Formatting <span class="price">– $3</span></li>
+      <li>Email Setup & Help <span class="price">– $2</span></li>
+    </ul>
+    <p>Prices are affordable and negotiable.</p>
+  </div>  <div class="card" id="how">
+    <h2>How It Works</h2>
+    <p>1. Send me a message with what you need.</p>
+    <p>2. I reply with confirmation and time.</p>
+    <p>3. You get your service delivered.</p>
+  </div>  <div class="card" id="contact">
+    <h2>Contact Me</h2>
+    <p><strong>Fast response:</strong> Click WhatsApp button below</p><a href="https://wa.me/2349054807522" target="_blank" style="display:block;text-align:center;background:#25D366;color:white;padding:15px;border-radius:8px;text-decoration:none;font-size:18px;margin-bottom:20px;">
+  💬Chat on WhatsApp
+</a>
+
+<form>
+  <label>Your Name</label>
+  <input type="text" placeholder="Enter your name" required />
+
+  <label>Your Email or WhatsApp</label>
+  <input type="text" placeholder="Enter contact details" required />
+
+  <label>Service Needed</label>
+  <textarea rows="4" placeholder="Describe what you need" required></textarea>
+
+  <button type="submit">Send Request</button>
+</form>
+
+  </div></div><footer>
+  <p>&copy; 2026 Goodluck Web Services</p>
+</footer></body>
+</html>
+
+
+
+
+
