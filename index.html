@@ -66,6 +66,22 @@
 </html>
 
 
+<div class="card">
+  <h2>🎮 Mini Game</h2>
+  <p>Click the button and increase your score!</p>
+  <p>Score: <span id="score">0</span></p>
+  <button onclick="addScore()">Click Me!</button>
+</div>
+
+<script>
+  let score = 0;
+  function addScore() {
+    score++;
+    document.getElementById("score").textContent = score;
+  }
+</script>
+
+
 
 
 
